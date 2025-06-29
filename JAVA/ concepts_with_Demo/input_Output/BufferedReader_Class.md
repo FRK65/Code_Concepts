@@ -5,7 +5,7 @@ but it's **faster** and more **flexible**, especially for reading **strings or c
 
 ## ✅ Step 1: Setup
 
-To use `BufferedReader`, you need to import and set it up like this:
+To use `BufferedReader`, you need to import and set it up like this and very IMP add **"throws IOException"** in method signature.
 
 ```java
 import java.io.BufferedReader;
