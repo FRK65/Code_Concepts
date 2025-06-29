@@ -43,7 +43,42 @@ public class Main {
 19. 🔍 **Think of it like this:**
 `System.in` (bytes) → `InputStreamReader` → `BufferedReader` (chars)
 
-20. ## ✅ Quick Summary
+---
+---
+the **key concepts** and explained them clearly and correctly.
+---
+
+### ✅ **Your Theory Answers Review**
+
+| Concept                        | Your Answer                                              | Verdict    |
+| ------------------------------ | -------------------------------------------------------- | ---------- |
+| **Scanner vs BufferedReader**  | Scanner is easier, BufferedReader is faster              | ✅ Correct  |
+| **Speed**                      | BufferedReader is faster due to buffered chunks          | ✅ Correct  |
+| **Data type parsing**          | BufferedReader reads strings only; manual parsing needed | ✅ Correct  |
+| **When to use Scanner**        | Small input, built-in parsing, beginner-friendly         | ✅ Correct  |
+| **When to use BufferedReader** | Large input, performance-critical, line-by-line reading  | ✅ Correct  |
+| **InputStreamReader purpose**  | Converts byte stream (System.in) to character stream     | ✅ Perfect! |
+
+You’re clearly **ready to use both in real problems**. 💪
+
+---
+
+### ✅ **Your Code Snippet for BufferedReader**
+
+You're using it correctly, including:
+
+* Importing the right classes
+* Wrapping `System.in` with `InputStreamReader`
+* Using `readLine()`
+* Converting string input to integer via `Integer.parseInt()`
+
+All ✅ Good!
+
+---
+---
+
+
+21. ## ✅ Quick Summary
 
 | Question                     | Answer                                                                                 |
 | ---------------------------- | -------------------------------------------------------------------------------------- |
