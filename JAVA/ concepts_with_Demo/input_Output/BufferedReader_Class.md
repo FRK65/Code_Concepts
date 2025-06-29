@@ -140,4 +140,121 @@ public class Main {
 
 ---
 
-Let me know if you want to try reading from files using `BufferedReader` too!
+# F.1 My code to read primitive int data types
+```java
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+import java.io.IOException;
+
+
+public class Main {
+    
+    public static void main(String args[]) throws IOException
+    {
+        BufferedReader bf = new BufferedReader( new InputStreamReader(System.in));
+        
+        System.out.println("Enter an int");
+        int i = Integer.parseInt(bf.readLine());
+        
+        System.out.println("Enter an long");
+        long l = Long.parseLong(bf.readLine());
+        
+        System.out.println("Enter an Double");
+        double d = Double.parseDouble(bf.readLine());
+        
+        System.out.println("Enter an float");
+        float f = Float.parseFloat(bf.readLine());
+        
+        System.out.println("Enter an boolean");
+        boolean b = Boolean.parseBoolean(bf.readLine());
+        
+        System.out.println("Enter an int "+i);
+        System.out.println("Enter an long "+l);
+        System.out.println("Enter an double "+d);
+        System.out.println("Enter an long "+f);
+        System.out.println("Enter an Boolean" +b);
+         
+        
+    
+    }
+}
+```
+
+# F.2 My code to read Integer, Boolean etc Object. 
+```java
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+import java.io.IOException;
+
+
+public class Main {
+    
+    public static void main(String args[]) throws IOException
+    {
+        BufferedReader bf = new BufferedReader( new InputStreamReader(System.in));
+        
+        System.out.println("Enter an int");
+        Integer i = Integer.parseInt(bf.readLine());
+        
+        System.out.println("Enter an long");
+        Long l = Long.parseLong(bf.readLine());
+        
+        System.out.println("Enter an Double");
+        Double d = Double.parseDouble(bf.readLine());
+        
+        System.out.println("Enter an float");
+        Float f = Float.parseFloat(bf.readLine());
+        
+        System.out.println("Enter an boolean");
+        boolean b = Boolean.parseBoolean(bf.readLine());
+        
+        System.out.println("Enter an int "+i);
+        System.out.println("Enter an long "+l);
+        System.out.println("Enter an double "+d);
+        System.out.println("Enter an long "+f);
+        System.out.println("Enter an Boolean " +b);
+         
+        
+    
+    }
+}
+```
+
+# F.3 My code to read char, word and String 
+```java
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+import java.io.IOException;
+
+
+public class Main {
+    
+    public static void main(String args[]) throws IOException
+    {
+        BufferedReader bf = new BufferedReader( new InputStreamReader(System.in));
+        
+        System.out.println("Enter an char");
+        char ch = bf.readLine().charAt(0);
+        
+        System.out.println("Enter an Word");
+        String word = bf.readLine();
+        
+        System.out.println("Enter an Line");
+        String line = bf.readLine();
+        
+        System.out.println("Enter an Line but read only word");
+        String wordline = bf.readLine().split(" ")[0];
+        
+        
+        System.out.println("Enter an char: "+ch);
+        System.out.println("Enter an word: "+word);
+        System.out.println("Enter an Line: "+line);
+        System.out.println("Enter an word from line: "+wordline);
+        
+    
+    }
+}
+```
