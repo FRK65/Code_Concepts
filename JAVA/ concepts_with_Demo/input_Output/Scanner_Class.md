@@ -126,5 +126,117 @@ public class Main {
     }
 }
 ```
-
 ---
+
+# F.1 My Code to Read only primitive data types 
+
+```java
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter char :");
+        char ch = sc.next().charAt(0);
+        
+        System.out.println("Enter int:");
+        int x = sc.nextInt();
+        
+        System.out.println("Enter Boolean:");
+        boolean t = sc.nextBoolean();
+        
+        System.out.println("Enter Double:");
+        double d = sc.nextDouble();
+        
+        System.out.println("Enter Float:");
+        float f = sc.nextFloat();
+        
+        System.out.println("Enter Long:");
+        long l = sc.nextLong();
+        
+        
+        System.out.println("char :"+ch);
+        System.out.println("int :"+x);
+        System.out.println("boolean :"+t);
+        System.out.println("double :"+d);
+        System.out.println("float :"+f);
+        System.out.println("long :"+l);
+        
+    }
+}
+```
+
+# F.2 My code to Read Object of Integer 
+```java
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter char :");
+        char ch = sc.next().charAt(0);
+        
+        System.out.println("Enter int:");
+        Integer x = sc.nextInt();
+        
+        System.out.println("Enter Boolean:");
+        Boolean t = sc.nextBoolean();
+        
+        System.out.println("Enter Double:");
+        Double d = sc.nextDouble();
+        
+        System.out.println("Enter Float:");
+        Float f = sc.nextFloat();
+        
+        System.out.println("Enter Long:");
+        Long l = sc.nextLong();
+        
+        
+        System.out.println("char :"+ch);
+        System.out.println("int :"+x);
+        System.out.println("boolean :"+t);
+        System.out.println("double :"+d);
+        System.out.println("float :"+f);
+        System.out.println("long :"+l);
+        
+    }
+}
+```
+# F.3 My code to Read char and String and word
+```java
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a CHAR :");
+        Character CHAR = sc.next().charAt(0); 
+        
+        
+        System.out.println("Enter a char :");
+        char ch = sc.next().charAt(0);
+        
+        System.out.println("Enter a String ");
+        sc.nextLine();
+        String str1 = sc.nextLine();
+        
+        System.out.println("Enter a Word ");
+        
+        String str2 = sc.nextLine();
+        
+        System.out.println("CHAR "+CHAR);
+        System.out.println("char "+ch);
+        System.out.println("str1 "+str1);
+        System.out.println("str2 "+str2);
+       
+    }
+}
+```
+
+
