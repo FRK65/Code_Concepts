@@ -113,3 +113,27 @@ Country: FR
 
 ---
 
+# My Code : 
+
+```java
+import java.text.NumberFormat;
+import java.time.LocalDate;
+import java.util.Locale;
+public class Main {
+    public static void main(String[] args) {
+        
+        
+        Locale lc = new Locale("en", "US");
+
+        NumberFormat nf = NumberFormat.getCurrencyInstance(lc);
+
+        double amount = 123456.789;
+        
+        String formattedAmount = nf.format(amount);
+
+        System.out.println(formattedAmount);
+
+    }
+}
+```
+
